@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--primary);
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: var(--dark);
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  h2 a:visited {
+    color: var(--tertiary);
+  }
+  
+  h2 a {
+    color: var(--primary);
+  }
+  
+  header {
+    margin-top: 50px;
+  }
+  
+  main {
+    margin: 20px auto;
+    width: 94%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+
+  h1, h2, h3, h4, h5,h6 {
+  font-weight: 700;
+  margin: 0;
+  color: var(--dark);
+  line-height: 1.25;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  .card-header h2 {
+    color: var(--primary);
+  }
+
+  .btn:hover {
+    color: var(--primary);
+    background-color: var(--tertiary);
+    transform: translate(0, 0);
+    box-shadow: 2px 2px var(--dark);
+  }
+
+  .btn {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: var(--border-radius);
+    color: var(--primary);
+    border: none;
+    outline: none;
+    background-color: var(--light-dark);
+    box-shadow: 3px 3px var(--dark);
+    transform: translate(-1px, -1px);
+  }
+
+  .hero {
+    padding: 1.25% 1%;
+    background-color: var(--dark);
+    color: var(--primary);
+  }
+
+  .hero p {
+    max-width: 75%;
+  }
+
+  .btn-inline {
+    display: inline;
+  }
+  
+  .li-inline {
+    display: inline;
+  }
+  
+  .navbar {
+    width: 100%;
+    position: fixed;
+    background-color: var(--dark);
+  }
+  
+  .nav-item {
+    margin: 0 40px;
+  }
+  
+  .nav-item a {
+    color: var(--primary);
+  }
+
+  .app-title {
+    font-size: 3rem;
+    background-color: var(--primary);
+    color: var(--dark);
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: var(--border-radius);
+  }
+  
+  .app-title a {
+    color: var(--dark);
+  }
+  
+  .list-group {
+    padding: 1%;
+  }
+
+  .footer a {
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    background-color: var(--dark);
+    color: var(--primary);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+  }
+
+  .list-item {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: var(--border-radius);
+    background-color: var(--light-dark);
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  .list-item:hover {
+    background-color: var(--dark);
+  }
+  
