@@ -15,4 +15,4 @@ const commentPost = async (event) => {
 
 }
 
-document.querySelector('.new-project-form').addEventListener('submit', commentPost)
+document.querySelector('.btn').addEventListener('click', commentPost)
