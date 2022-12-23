@@ -84,3 +84,11 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ![alt text](./public/images/SS2.png)
 ![alt text](./public/images/SS3.png)
 ![alt text](./public/images/SS4.png)
+![alt text](./public/images/SS5.png)
+![alt text](./public/images/SS6.png)
+![alt text](./public/images/SS7.png)
+
+# Deployed Link
+
+https://obscure-eyrie-55285.herokuapp.com/
+
